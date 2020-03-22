@@ -16,7 +16,7 @@
             <!-- Set background for slide in css -->
             <div
             class="header-back"
-            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }}); background-position: center center; background-repeat: no-repeat; background-size: contain;"
+            style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }}); background-position: top center; background-repeat: no-repeat; background-size: contain;"
             title="{{ site.data.index.banners[0].title }}">
             </div>
         </div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }}); background-position: center center;
+            <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }}); background-position: top center;
     background-repeat: no-repeat; background-size: contain;" title="{{ banner.title }}"></div>
         </div>
         {% endfor %}

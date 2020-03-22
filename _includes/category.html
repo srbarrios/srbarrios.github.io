@@ -33,8 +33,8 @@ $(function(){
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="ibox">
                         <div class="ibox-content">
-                            {% if post.icon %}<div class="col-md-4"><img src="{{ post.icon }}" height="100" width="auto"></div><br>{% endif %}
                             <a href="{{ post.url | prepend: site.baseurl }}" class="btn-link">
+                                {% if post.icon %}<div class="col-md-4"><img src="{{ post.icon }}" height="100" width="auto"></div><br>{% endif %}
                                 <h2>{{ post.title }}</h2>
                             </a>
                             <div class="small m-b-xs">

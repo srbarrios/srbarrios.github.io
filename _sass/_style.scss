@@ -64,7 +64,7 @@ h3, h4, h5 {
 .navbar-default .nav > li > a {
   &:focus, &:hover {
     background-color: #293846;
-    color: #fff;
+    color: transparent;
   }
 }
 
@@ -137,6 +137,10 @@ h3, h4, h5 {
   display: inline-table;
 }
 
+.navbar-form .navbar-default .navbar-collapse, .navbar-default {
+  border-color: transparent;
+}
+
 .nav.navbar-top-links a {
   font-size: 14px;
 }
@@ -160,7 +164,7 @@ h3, h4, h5 {
 
 .navbar-default .landing_link a {
   background: #38b6ff;
-  color: #fff;
+  color: transparent;
   &:hover {
     background: #38b6ff !important;
     color: #fff;
@@ -2385,7 +2389,7 @@ body {
     }
   }
   section p {
-    color: #aeaeae;
+    color: #676a6c;
     font-size: 13px;
   }
   h1 {
@@ -2416,8 +2420,8 @@ body {
   }
   .navbar-default {
     &.navbar-scroll {
-      background-color: #fff;
-      border-color: #fff;
+      background-color: transparent;
+      border-color: transparent;
       padding: 15px 0;
     }
     background-color: transparent;
@@ -2481,6 +2485,7 @@ body {
   }
   .navbar-scroll.navbar-default .nav li a {
     color: #676a6c;
+    background-color: #ffffff55;
     &:hover {
       color: #38b6ff;
     }
@@ -2505,9 +2510,6 @@ body {
   }
   .navbar-fixed-top {
     border: none !important;
-    &.navbar-scroll {
-      border-bottom: 1px solid #e7eaec !important;
-    }
   }
   .navbar.navbar-scroll .navbar-brand {
     margin-top: 15px;
@@ -2621,6 +2623,7 @@ body {
     }
     h2 {
       font-size: 18px;
+      font-weight: bolder;
       margin-top: 5px;
     }
   }
@@ -2742,6 +2745,9 @@ body {
         padding-left: 0;
         border-radius: 4px;
       }
+      .carousel {
+        height: 150px;
+      }
     }
     .carousel-caption p {
       margin-bottom: 20px;
@@ -2752,8 +2758,13 @@ body {
 }
 
 @media (max-width: 992px) {
-  .landing-page .carousel-image {
-    display: none;
+  .landing-page {
+    .carousel-image {
+      display: none;
+    }
+    .carousel {
+      height: 200px;
+    }
   }
 }
 
@@ -2770,12 +2781,15 @@ body {
         font-size: 28px;
       }
     }
+    .carousel {
+      height: 80px;
+    }
     .navbar.navbar-scroll .navbar-brand {
       margin-top: 6px;
     }
     .navbar-default {
-      background-color: #fff;
-      border-color: #fff;
+      background-color: transparent;
+      border-color: transparent;
       padding: 15px 0;
       .navbar-nav > .active > a:focus {
         background: 0 0;
@@ -2783,6 +2797,7 @@ body {
       }
       .nav li a {
         color: #676a6c;
+        background-color: #ffffff55;
         &:hover {
           color: #38b6ff;
         }
