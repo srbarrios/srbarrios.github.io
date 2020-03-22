@@ -1,0 +1,6 @@
+# skills section data
+
+label: ability
+id : skills_chart
+aspects: Cucumber, Capybara, CI/CD Pipelines, Terraform, Salt, Docker, Kubernetes, AWS/GCP/Azure (Infra), Grafana, Prometheus, Spring, Unity3D, Appium
+percentage: 100, 100, 100, 85, 85, 70, 60, 80, 70, 60, 80, 75, 100
