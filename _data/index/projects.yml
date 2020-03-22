@@ -1,0 +1,22 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Trippins
+  i18n: mytripinpics
+#  gh_user: srbarrios
+#  repo: Jalpc
+  url: https://gitlab.com/oscar.barrios/mytripinpics
+  img: /static/assets/img/landing/trippins.png
+  desc: Mobile app developed with Xamarin using Facebook API and Maps Pins
+
+- name: DecoSnapp
+  i18n: decosnapp
+  url: https://gitlab.com/oscar.barrios/DecoSnapp
+  img: /static/assets/img/landing/decosnapp.png
+  desc: Augmented reality mobile app developed with Unity3D and Vuforia
+
+- name: HurryMind
+  i18n: hurrymind
+  url: https://gitlab.com/oscar.barrios/words-and-maths
+  img: /static/assets/img/landing/hurrymind.png
+  desc: That's a practice to learn more about Unity3D. You can find inside a good skeleton to build your new puzzle games.
