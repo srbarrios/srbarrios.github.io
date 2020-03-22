@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Spring, MySQL, Redis, Angular, Grafana, Selenium, Appium, Capybara, Jenkins-Pipelines, Kubernetes, Terraform, Salt
+percentage: 100, 100, 100, 50, 50, 100, 100, 100, 100, 50, 75, 50

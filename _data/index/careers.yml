@@ -1,0 +1,80 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: SUSE
+    i18n: suse
+  desc:
+    detail: Improving the current test framework and maintaining the automated tests of SUSE Manager project.
+    i18n: suse_job_detail
+  date:
+    detail: Nov. 2018
+    i18n: nov_2018
+  job:
+    detail: Senior QA Engineer
+    i18n: senior_qa_engineer
+  icon: icon-suse
+  present: true
+
+- name:
+    detail: King Games (Activision Blizzard)
+    i18n: kin_games
+  desc:
+    detail: >
+     I designed and develop from scratch a Java test framework to deliver a high reliable continuous integration, speeding up 90% of time on recurrent test tasks in game and internal service teams.
+     <br><br>Contribute to DevOps process, improving visibility on real-time data analysis through monitoring tools, streamlining CI/CD thanks to Jenkins, Git Hooks and containerization.
+     <br><br>Develop new game and web services features, leading back-end side. Always focus on reusability and maintainability, I contributed in a game-server layer and collaborate embedded in a game team to bring awesome game features boosting monetization, retention and virality.
+    i18n: king_job_detail
+  date:
+    detail: Mar. 2014
+    i18n: mar_2014
+  job:
+    detail: Backend developer and Software Engineer in Test
+    i18n: backend_developer
+  icon: icon-mobile-device
+
+- name:
+    detail: Telefonica Digital
+    i18n: telefonica_digital
+  desc:
+    detail: >
+     Start a CDN platform, leading a QA team of five SDET. Mainly focus on web services integration. To achieve quick regression tests I designed a test framework in Python offering fast development of BDD tests performed on RedHat servers.
+     <br><br>Contributed in an internal RFP, evaluating performance of 3 commercial CDNs, applying advanced skills in network diagnostics. Currently Movistar TV is built on top of it.
+     <br><br>I also contributed in other R&D projects, in charge of test automation, experience in advanced web acceleration, iOS/Android mobile apps and cloud platform.
+    i18n: telefonica_job_detail
+  date:
+    detail: Dec. 2009
+    i18n: dec_2009
+  job:
+    detail: Software Engineer in Test and Test Lead
+    i18n: sdet
+  icon: icon-antenna
+
+- name:
+    detail: INRIA
+    i18n: inria
+  desc:
+    detail: >
+     Cooperation with JBoss and Bull developing and integrating a web service on BonitaSoft BPM Solution, to achieve workflow management of human and automatic actions.
+     <br><br>Contribution in a SOA platform, providing more flexibility in web services development in collaboration with the Eclipse community and OW2. Presented at JavaOne 2009.
+    i18n: inria_job_detail
+  date:
+    detail: sep. 2007
+    i18n: sep_2007
+  job:
+    detail: Backed Developer
+    i18n: backend_developer
+  icon: icon-database
+
+- name:
+    detail: BULL
+    i18n: bull
+  desc:
+    detail: Learning from the builders how design and develop BPM process, using XPDL to define workflows. I did a performance analysis of BonitaSoft (before the spin- off), running it in cluster mode on different application containers and JVM distributions.    
+    i18n: bull_job_detail
+  date:
+    detail: Dec. 2006
+    i18n: dec_2006
+  job:
+    detail: Test Engineer
+    i18n: test_engineer
+  icon: icon-database-alt2

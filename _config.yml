@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: Oubiti
+description: > # this means to ignore newlines until "baseurl:"
+  From Oubiti we are very happy to start this new website, from here you can see all our developments in web development and mobile applications.
+  Wait a minute, why am I speaking in the plural? I better introduce myself. My name is Óscar, I have created the Oubiti brand to include all those projects and ideas that I published.
+  I love the world of Augmented Reality (here a link of my first steps in 2006), I also like to travel and photography so I’m working on an app to travelers, follow the page and soon I will publish it!
+  Meanwhile, you want to try a game as a hobby? It’s called HurryMind!  is still in development but you can already try the beta if you have an Android or iPhone.
+  If you want to know more about me, contact me in Linkedin.
+keywords: blog, oscar, barrios, qa, automation, testing, devops, development, selenium
+#baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+# url: https://srbarrios.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
+url: http://127.0.0.1:4000
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Oscar Barrios Torrero  # Be used at blog posts' author.
+  first_name: Oscar  # Be used at index page about me section.
+  last_name: Barrios  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/oscar-barrios.png  # upload your avatar at directory and edit it.
+  github_username: srbarrios  # Leave blank if you don't have now
+  linkedin_id: oscarbarrios # Leave blank if you don't have now
+  #facebook_username:   # Leave blank if you don't have now
+  #twitter_username:   # Leave blank if you don't have now
+  email: oscarbarrios@gmail.com  # Leave blank if you don't have now
+  cv: /static/assets/cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: fa-linux
+    - name: icon-ruby
+  skill_icon2:
+    - name: icon-csharp
+    - name: icon-java
+  desc: >
+    Software Engineer skilled in Quality Process and Automation, with expertise as a Backend Developer.
+    <br>Big fan of Agile methodologies & DevOps culture
+
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: oubiti
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  id: UA-160627432-1
+
+## google optimize
+go:
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
