@@ -6,7 +6,7 @@ layout: post
 comments: true
 desc: Tutorial to setup your own home hosting
 permalink: /home-hosting/
-icon: /static/assets/img/blog/home-hosting.jpg
+icon: /static/assets/img/blog/home_hosting.png
 keywords: "hosting,router"
 categories:
   - Life

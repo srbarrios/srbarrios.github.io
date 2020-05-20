@@ -6,7 +6,7 @@ layout: post
 comments: true
 desc: 'Starter skeleton of a Java Backend'
 permalink: /java-backend-skeleton/
-icon: /static/assets/img/blog/springboot.jpg
+icon: /static/assets/img/blog/backend.png
 keywords: "java,backend,springboot,redis,api"
 categories:
   - Development
