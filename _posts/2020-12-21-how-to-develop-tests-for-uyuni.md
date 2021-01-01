@@ -22,14 +22,16 @@ In order to deploy our test environment, we use Sumaform, which is a tool that m
 To debug our tests, we use ChromeDriver poping up a browser where we can follow all the actions made by our test framework, thanks to the breakpoints in our IDE.
 
 <div class="video-container">
-	<iframe 
-		width="1280" 
-		height="720" 
-		src="https://www.youtube.com/embed/4U_68ddRAHg" 
-		frameborder="0" 
-		allow="autoplay; encrypted-media; picture-in-picture" 
-		allowfullscreen>
-	</iframe>
+	<center>
+		<iframe 
+			width="800" 
+			height="500" 
+			src="https://www.youtube.com/embed/4U_68ddRAHg" 
+			frameborder="0" 
+			allow="autoplay; encrypted-media; picture-in-picture" 
+			allowfullscreen>
+		</iframe>
+	</center>
 </div>
 
 
