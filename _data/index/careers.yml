@@ -5,17 +5,35 @@
     i18n: suse
   desc:
     detail: >
-     Enhance the current testing framework and keep automated testing of the SUSE Manager project.
-     <br><br>I introduced parallelized End2End tests, Smart Pull Request End2End tests, automated tests for maintenance update validations, GitHub actions for unit tests, many other small contributions like nicer test reports or Grafana dashboards for QA Squad.
-     <br>My next goal is to migrate our Continuous Testing from the libvirt hypervisor to AWS, using Terraform.
-     <br><br>Creator and facilitator of the monthly DevOps Meetup inside SUSE.
+     Test Automation Architect. (Test Tech Lead, Technical Focus)<br><br>
+     The test architect is primarily a technical advisory role as a stakeholder to help the Project Managers and Product Owners to reduce the level of technical uncertainty.<br>
+     The role in agile development teams makes it easier for the POs to set priorities for the teams and making more accurate estimations and plans (both sprints and iterations) by the teams.<br><br>
+     <h4>Responsibilities</h4><br>
+     The test architect is a technical expert who maintains both short and long term technical visions for the QE department:<br>
+     Ensures a long-term sustainable design of quality engineering processes and tools Ensures that the QE workflows and the toolchain meet the quality requirements defined by PO/PJM's<br><br>
+     <h4>Tasks</h4><br>
+     <ul>
+     <li>Help to create realistic plans regarding the quality of our product by helping reviewing test plans and facilitating the gathering of future technical requirements and strategies</li>
+     <li>Providing guidance and support on the way we design and develop our quality engineering solution</li>
+     <li>Think ahead and outside the box for our QE solution</li>
+     <li>Explores and introduces new ideas, approaches, technologies to the team and help the team to leverage those new improvements in quality engineering</li>
+     <li>Represent the technical side of SUSE Manager QE and influence inside SUSE and outside on behalf of SUSE when needed</li>
+     <li>Work with primarily the QE and Product Owners to clarify quality aspects from epics and stories relevant to product development</li>
+     <li>Work with the Product Architect, Product Owner and Project Managers to develop and roll out a consistent technical vision, from the point of view of Quality Engineering.</li>
+     <li>Work with other Solution/QA Architects and subject matter experts in SUSE to build converged QE solutions</li>
+     <li>Analyze and challenge the status quo of our test automation landscape and processes and drive innovation via both evolutionary and revolutionary changes to the way we work</li>
+     <li>Maintains active interface with Maintenance Automation department</li>
+     <li>Collaborate with the QE tools team to streamline the test development process</li>
+     <li>Collaborate with the Uyuni community when applicable</li>
+     <li>Attend conferences and events, work with relevant communities to stay well informed about trends</li>
+     </ul>
     i18n: suse_job_detail
   date:
     detail: Nov. 2018
     i18n: nov_2018
   job:
-    detail: Test Automation Expert
-    i18n: test_automation_expert
+    detail: Test Automation Architect
+    i18n: test_automation_architect
   icon: icon-suse
   present: true
 
