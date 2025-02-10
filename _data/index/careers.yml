@@ -5,11 +5,11 @@
     i18n: suse
   desc:
     detail: >
-     Test Automation Architect. (Test Tech Lead, Technical Focus)<br><br>
-     The test architect is primarily a technical advisory role as a stakeholder to help the Project Managers and Product Owners to reduce the level of technical uncertainty.<br>
+     Quality Engineering Architect. <br><br>
+     The QE architect is primarily a technical advisory role as a stakeholder to help the Project Managers and Product Owners to reduce the level of technical uncertainty.<br>
      The role in agile development teams makes it easier for the POs to set priorities for the teams and making more accurate estimations and plans (both sprints and iterations) by the teams.<br><br>
      <h4>Responsibilities</h4><br>
-     The test architect is a technical expert who maintains both short and long term technical visions for the QE department:<br>
+     The QE architect is a technical expert who maintains both short and long term technical visions for the QE department:<br>
      Ensures a long-term sustainable design of quality engineering processes and tools Ensures that the QE workflows and the toolchain meet the quality requirements defined by PO/PJM's<br><br>
      <h4>Tasks</h4><br>
      <ul>
@@ -32,8 +32,8 @@
     detail: Nov. 2018
     i18n: nov_2018
   job:
-    detail: Test Automation Architect
-    i18n: test_automation_architect
+    detail: QE Architect
+    i18n: qe_architect
   icon: icon-suse
   present: true
 
