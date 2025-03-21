@@ -26,6 +26,7 @@ author:  # change following line to your infomation.
   #twitter_username:   # Leave blank if you don't have now
   email: oscarbarrios@gmail.com  # Leave blank if you don't have now
   cv: /static/assets/cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  matrix: srbarrios
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-linux
