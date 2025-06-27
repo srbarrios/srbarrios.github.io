@@ -8,12 +8,6 @@ desc: DecoSnapp (Augmented Reality app)
 permalink: /decosnapp/
 keywords: "art,ar,decoration,unity3d,app"
 icon: /static/assets/img/blog/decosnapp.png
-enclosure:
-  - |
-    /static/assets/img/blog/decosnapp.mp4
-    0
-    video/mp4
-    
 img: decosnapp.png
 categories:
   - Development
@@ -28,5 +22,5 @@ This app is designed to help everyone that needs to decorate a space, and wants 
 Is developed with the aim to be a powerful tool for decoration and painting companies.
 
 <div class="video-container">
-	<video controls preload="auto" src="/static/assets/img/blog/decosnapp.mp4"></video>
+	<video controls preload="auto" src="https://github.com/srbarrios/srbarrios.github.io/releases/download/1.0/decosnapp.mp4"></video>
 </div>
