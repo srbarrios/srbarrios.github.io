@@ -6,6 +6,12 @@ layout: post
 comments: true
 desc: 'Jenkins Pipeline &#038; Parallel Cucumber'
 permalink: /jenkins-pipeline-parallel-cucumber/
+enclosure:
+  - |
+    /static/assets/img/blog/jenkins-pipelines.mp4
+    0
+    video/mp4
+    
 icon: /static/assets/img/blog/pipeline.png
 keywords: "ci,jenkins,pipelines,parallel,tests"
 categories:
@@ -16,5 +22,5 @@ During a hack week, I put in place a [Jenkins Pipeline](https://jenkins.io/doc/b
 I presented an informal demo to my team, I hope it can be useful to have an idea of Jenkins Pipelines.
 
 
-<video controls preload="auto" src="https://github.com/srbarrios/srbarrios.github.io/releases/download/1.0/jenkins-pipelines.mp4"></video>
+<video controls preload="auto" src="/static/assets/img/blog/jenkins-pipelines.mp4"></video>
 
