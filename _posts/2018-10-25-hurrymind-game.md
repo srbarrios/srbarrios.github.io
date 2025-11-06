@@ -1,7 +1,7 @@
 ---
 title: HurryMind!
 date: 2018-10-25T11:46:43+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: Demo game made with Unity3D

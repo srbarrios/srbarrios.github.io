@@ -1,7 +1,7 @@
 ---
 title: DecoSnapp
 date: 2018-10-25T12:57:37+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: DecoSnapp (Augmented Reality app)

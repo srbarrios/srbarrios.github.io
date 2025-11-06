@@ -1,7 +1,7 @@
 ---
 title: Smart integration tests
 date: 2020-12-20T10:00:56+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: Using Cucumber profiles and Analizing code changes
@@ -28,7 +28,7 @@ Our next steps on that goal, it will be filter the resources we need to deploy t
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.5/pdfobject.min.js"></script>
 <script>
 var options = {
-	fallbackLink: "<iframe src='https://docs.google.com/viewer?url=http://oubiti.com/static/assets/img/blog/smart_integration_tests.pdf&embedded=true' style='width:100%; height:800px;' frameborder='0'></iframe><br><p><a href='[url]'>Download PDF</a></p>",
+	fallbackLink: "<iframe src='https://docs.google.com/viewer?url=https://oscarbarrios.tech/static/assets/img/blog/smart_integration_tests.pdf&embedded=true' style='width:100%; height:800px;' frameborder='0'></iframe><br><p><a href='[url]'>Download PDF</a></p>",
     height: "800px",
     pdfOpenParams: { view: 'FitH', page: '1' }
 };

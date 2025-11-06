@@ -1,7 +1,7 @@
 ---
 title: 'SUSECon 2020 Talk: Automated QA for Maintenance Updates'
 date: 2020-09-20T19:07:00+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: 'SUSECon 2020 Talk: Automated QA for Maintenance Updates'

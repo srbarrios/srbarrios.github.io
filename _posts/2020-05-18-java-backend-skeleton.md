@@ -1,7 +1,7 @@
 ---
 title: 'Starter skeleton of a Java Backend'
 date: 2020-05-18T09:07:00+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: 'Starter skeleton of a Java Backend'

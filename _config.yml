@@ -1,13 +1,9 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Oubiti
-description: > # this means to ignore newlines until "baseurl:"
-  From Oubiti we are very happy to start this new website, from here you can see all our developments in web development and mobile applications.
-  Wait a minute, why am I speaking in the plural? I better introduce myself. My name is Óscar, I have created the Oubiti brand to include all those projects and ideas that I published.
-  I love the world of Augmented Reality (here a link of my first steps in 2006), I also like to travel and photography so I’m working on an app to travelers, follow the page and soon I will publish it!
-  Meanwhile, you want to try a game as a hobby? It’s called HurryMind!  is still in development but you can already try the beta if you have an Android or iPhone.
-  If you want to know more about me, contact me in Linkedin.
+title: oscarbarrios.tech
+description: > # this means to ignore newlines until "keywords:"
+  Hello everyone! I'm Oscar Barrios, and I'm thrilled to introduce you to oscarbarrios.tech, my new space for exploring the intersection of Testing and DevOps. As a QE Architect and a big fan of Agile methodologies and DevOps culture , I've spent years embracing new technologies and building robust software architectures across companies like SUSE , King Activision Blizzard , and Telefónica Digital. My experience in scaling testing, developing CI/CD pipelines , and driving quality standards  has shown me the power of bringing automation, tools, and processes together. From building AI-powered PR analysis tools and implementing CI-integrated synthetic monitoring , to mentoring the next generation of engineers , I'm passionate about sharing ideas related to DevOps, Automation, and QA. At oscarbarrios.tech, I plan to share insights, articles, and code on topics like Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), smart test selection, and the latest tools in the TestOps landscape—including those from my current tech stack like Terraform, Prometheus, Grafana, Python, Go, Selenium, and Ollama. Join me as we explore how to achieve Quality on Autopilot!
 keywords: blog, oscar, barrios, qa, automation, testing, devops, development, selenium
 #baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 # url: https://srbarrios.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
