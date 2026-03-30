@@ -1,3 +1,22 @@
+<style>
+    .skill-tag {
+        display: inline-block;
+        border: 1px solid #38b6ff;
+        padding: 8px 16px;
+        margin: 6px;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    /* Changed the hover to a little float effect since the backgrounds are now dynamic */
+    .skill-tag:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+</style>
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center" id="i18_skills">
@@ -6,44 +25,31 @@
         </div>
     </div>
     <div class="row features-block">
-        <div class="wow zoomIn col-lg-8 col-lg-offset-2">
-            <canvas id="{{ site.data.index.skills.id }}"></canvas>
+        <div class="wow zoomIn col-lg-10 col-lg-offset-1 text-center">
+            
+            {% assign skills_list = site.data.index.skills.aspects | split: "," %}
+            {% assign pct_list = site.data.index.skills.percentage | split: "," %}
+            
+            {% for skill in skills_list %}
+                {% assign index = forloop.index0 %}
+                {% assign percentage = pct_list[index] | plus: 0 %}
+                
+                {% assign lightness = 85 %}
+                
+                {% if percentage > 70 %}
+                    {% assign diff = percentage | minus: 70 | times: 2 %}
+                    {% assign lightness = lightness | minus: diff %}
+                {% endif %}
+                
+                {% assign text_color = "#004a8f" %} {% if lightness < 50 %}
+                    {% assign text_color = "#ffffff" %} {% endif %}
+                
+                <span class="skill-tag" style="background-color: hsl(204, 82%, {{ lightness }}%); color: {{ text_color }};">
+                    {{ skill | strip }}
+                </span>
+            {% endfor %}
+            
         </div>
-        <div class="col-lg-1"></div>
-        <script>
-        var ctx = document.getElementById("{{ site.data.index.skills.id }}");
-        var data = {
-            labels: "{{ site.data.index.skills.aspects }}".split(","),
-            datasets: [{
-                label: "{{ site.data.index.skills.label }}",
-                backgroundColor: "rgba(54, 162, 235, 0.3)",
-                borderColor: "#38b6ff",
-                pointBackgroundColor: "#38b6ff",
-                pointBorderColor: "#38b6ff",
-                pointHoverBackgroundColor: "#38b6ff",
-                pointHoverBorderColor: "#000",
-                data: [{{ site.data.index.skills.percentage }}]
-                }]
-        };
-        var myRadarChart = new Chart(ctx, {
-            type: 'radar',
-            data: data,
-            options: {
-                elements: {
-                    line: { 
-                        tension: 0.15
-                    }
-                },
-                scale: {
-                    responsive: true,
-                    ticks: {min: 0, max: 100},
-                    pointLabels: {fontSize: 12},
-                },
-                legend: {
-                    display: false
-                },
-            }
-        });
-        </script>
     </div>
 </div>
+<br><br>

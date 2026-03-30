@@ -3,8 +3,6 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Trippins
   i18n: mytripinpics
-#  gh_user: srbarrios
-#  repo: Jalpc
   url: https://gitlab.com/oscar.barrios/mytripinpics
   img: /static/assets/img/landing/trippins.png
   desc: Mobile app developed with Xamarin using Facebook API and Maps Pins
@@ -20,3 +18,9 @@
   url: https://gitlab.com/oscar.barrios/words-and-maths
   img: /static/assets/img/landing/hurrymind.png
   desc: That's a practice to learn more about Unity3D. You can find inside a good skeleton to build your new puzzle games.
+
+- name: FailTale
+  i18n: failtale
+  url: https://github.com/srbarrios/failtale-crewai
+  img: /static/assets/img/landing/failtale.png
+  desc: An AI agent is triggered by test failures. It uses an MCP tool to perform remote SSH commands on relevant hosts, collects the resulting data, and analyzes it utilizing a multi-agent crew.
