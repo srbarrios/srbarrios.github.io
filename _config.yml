@@ -31,8 +31,8 @@ author:  # change following line to your infomation.
     - name: icon-csharp
     - name: icon-java
   desc: >
-    Software Engineer skilled in Quality Process and Automation, with expertise as a Backend Developer.
-    <br>Big fan of Agile methodologies & DevOps culture
+    I am a QE Architect and Expert Software Engineer with 20 years of experience evolving the discipline of Test Automation. From my backend development roots at INRIA and King to my current role at SUSE, I have treated quality as a core engineering and observability challenge.<br>
+    As a technical advisor for the Multi-Linux Manager project, I focus on reducing uncertainty for stakeholders by designing long-term quality strategies and TestOps workflows. My recent work involves scaling quality through AI-powered test tools and managing complex E2E pipelines. I am passionate about shifting quality to the left, a philosophy I’ve implemented while leading teams at Telefónica and building high-reliability test frameworks at King. Beyond my architectural duties, I stay active in the engineering community as a SeleniumConf speaker and a Google Summer of Code mentor, building on a background that includes experience as an Adjunct Professor at UAB.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
