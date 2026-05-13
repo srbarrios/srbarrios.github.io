@@ -6,11 +6,8 @@ module.exports = {
         type: 'js',
         list: [
             'node_modules/jquery/dist/jquery.js',
-            'static/js/bs3-typeahead.js',//
-            'node_modules/bootstrap/dist/js/bootstrap.js',
-            'node_modules/chart.js/dist/Chart.js',
-            'node_modules/pace-progress/pace.js',
-            'node_modules/wowjs/dist/wow.js',
+            'static/js/bs3-typeahead.js',
+            'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
             'static/js/scroll.js',
             'static/js/count.js'
         ]
@@ -29,9 +26,6 @@ module.exports = {
         prefix: 'blog-',
         type: 'js',
         list: [
-            'node_modules/metismenu/dist/metisMenu.js',
-            'node_modules/jquery-slimscroll/jquery.slimscroll.js',
-            'node_modules/peity/jquery.peity.js',
             'static/js/jPages.js',
             'static/js/js.js',
             'static/js/search.js'
@@ -45,10 +39,8 @@ module.exports = {
             'node_modules/normalize.css/normalize.css',
             'node_modules/bootstrap/dist/css/bootstrap.css',
             'node_modules/animate.css/animate.css',
-            'node_modules/components-font-awesome/css/font-awesome.css',
+            'node_modules/@fortawesome/fontawesome-free/css/all.css',
             'node_modules/font-mfizz/dist/font-mfizz.css',
-            'node_modules/gritter/jquery.gritter.css',
-            'node_modules/pace-progress/themes/blue/pace-theme-flash.css',
         ]
     }]
 }

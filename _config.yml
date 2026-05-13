@@ -25,7 +25,7 @@ author:  # change following line to your infomation.
   matrix: srbarrios
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: fa-linux
+    - name: fa-brands fa-linux
     - name: icon-ruby
   skill_icon2:
     - name: icon-csharp
