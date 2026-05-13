@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Barrios - QE Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .print-break-inside-avoid {
+            break-inside: avoid;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .shadow-2xl {
+                box-shadow: none !important;
+            }
+            .container {
+                max-width: 100% !important;
+                width: 100% !important;
+                margin: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="text-gray-800 bg-slate-50 m-0 p-0 print:bg-white">
+
+    <div class="w-full min-h-screen bg-white flex flex-col md:flex-row print:shadow-none">
+        
+        <!-- Sidebar (Left Column) -->
+        <aside class="w-full md:w-1/3 lg:w-1/4 xl:w-[22%] bg-slate-900 text-white p-6 sm:p-8 flex flex-col pt-10 md:pt-12 md:min-h-screen shrink-0">
+            
+            <!-- Profile Info -->
+            <div class="text-center mb-8">
+                <img src="https://oscarbarrios.tech/static/assets/img/landing/oscar-barrios.png" alt="Oscar Barrios" class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto border-2 border-slate-600 object-cover mb-6 shadow-lg">
+                <h1 class="text-4xl font-bold tracking-tight text-white">Oscar</h1>
+                <h1 class="text-4xl font-bold tracking-tight mb-2 text-white">Barrios</h1>
+                <h2 class="text-lg text-slate-400 font-medium tracking-wide uppercase mt-2">QE Architect</h2>
+            </div>
+
+            <!-- Short Bio / Intro -->
+            <div class="mb-8 text-slate-300 text-sm leading-relaxed text-center italic border-t border-b border-slate-800 py-5">
+                "Big fan of Agile methodologies and DevOps culture. I enjoy embracing new technologies and sharing ideas to build up new software architectures."
+            </div>
+
+            <!-- Contact Information -->
+            <div class="mb-8 space-y-4">
+                <h3 class="text-sm font-bold uppercase tracking-widest text-slate-400 border-b border-slate-800 pb-2 mb-4">Contact</h3>
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-envelope text-slate-500 w-5 text-center"></i>
+                    <a href="mailto:oscar.barrios@gmail.com" class="text-sm text-slate-300 hover:text-white transition">oscar.barrios@gmail.com</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-phone text-slate-500 w-5 text-center"></i>
+                    <span class="text-sm text-slate-300">+34 680 282 496</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fab fa-linkedin text-slate-500 w-5 text-center"></i>
+                    <a href="https://linkedin.com/in/oscarbarrios" target="_blank" class="text-sm text-slate-300 hover:text-white transition">linkedin.com/in/oscarbarrios</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fab fa-github text-slate-500 w-5 text-center"></i>
+                    <a href="https://github.com/srbarrios" target="_blank" class="text-sm text-slate-300 hover:text-white transition">github.com/srbarrios</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-map-marker-alt text-slate-500 w-5 text-center"></i>
+                    <span class="text-sm text-slate-300">Tarragona, Spain</span>
+                </div>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="mb-8">
+                <h3 class="text-sm font-bold uppercase tracking-widest text-slate-400 border-b border-slate-800 pb-2 mb-4">Tech Stack</h3>
+                
+                <div class="mb-5">
+                    <h4 class="text-xs font-semibold text-slate-500 uppercase mb-3">AI & Agentic</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">LangGraph</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">LangChain</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">CrewAI</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Claude Code</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Ollama</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Qwen</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Gemini</span>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <h4 class="text-xs font-semibold text-slate-500 uppercase mb-3">Cloud & Infra</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Terraform</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">SaltStack</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">AWS</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Docker</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">k3s</span>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <h4 class="text-xs font-semibold text-slate-500 uppercase mb-3">CI/CD & Observability</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">GitHub Workflows</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Prometheus</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Grafana</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Jenkins</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-semibold text-slate-500 uppercase mb-3">Languages & Tools</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Python</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Playwright</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Ruby</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Go</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-xs px-2.5 py-1 rounded">Bash</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div>
+                <h3 class="text-sm font-bold uppercase tracking-widest text-slate-400 border-b border-slate-800 pb-2 mb-4">Languages</h3>
+                <ul class="space-y-3 text-sm text-slate-300">
+                    <li class="flex justify-between items-center"><span>Spanish / Catalan</span> <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Native</span></li>
+                    <li class="flex justify-between items-center"><span>English</span> <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Full Proficient</span></li>
+                    <li class="flex justify-between items-center"><span>French</span> <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Professional</span></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content (Right Column) -->
+        <main class="w-full md:w-2/3 lg:w-3/4 xl:w-[78%] bg-white p-6 sm:p-8 md:p-12 lg:p-16 pt-10 md:pt-12 grow">
+            
+            <!-- Professional Summary -->
+            <section class="mb-12">
+                <p class="text-slate-600 leading-relaxed text-[1.05rem] font-medium">
+                    Visionary Quality Engineering Architect with a strong foundation in DevOps culture, TestOps, and Agile methodologies. I specialize in bridging the gap between highly reliable software architectures and modern, AI-driven testing paradigms. By leveraging Agentic AI frameworks (LangChain, LangGraph, CrewAI) and utilizing advanced LLM coding assistants like Claude Code at a professional level, I design autonomous, scalable validation pipelines. I am passionate about embracing new technologies, driving technical strategy, and reducing project uncertainty through smart, AI-augmented engineering solutions.
+                </p>
+            </section>
+
+            <!-- Recent Innovations & Engineering Contributions -->
+            <section class="mb-12 print-break-inside-avoid">
+                <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mb-6 flex items-center gap-3">
+                    <i class="fas fa-lightbulb text-slate-400"></i> Innovations & Contributions
+                </h2>
+                <ul class="space-y-6 text-slate-700">
+                    <li class="pl-5 border-l-2 border-slate-300 relative">
+                        <strong class="text-slate-900 block mb-1">Agentic Test Explorer (LangGraph, LangChain, Playwright):</strong> 
+                        Engineered a product-agnostic, AI-driven exploratory test framework utilizing a <strong>LangGraph Swarm</strong> architecture. Configured seamlessly via YAML, it dynamically routes tasks to specialized QA personas and stress agents that drive real browsers to uncover bugs and edge cases. 
+                        <ul class="list-disc pl-5 mt-2 text-sm text-slate-600 space-y-1 marker:text-slate-400">
+                            <li><strong>Autonomous Execution:</strong> Powered by Claude and Google Gemini. Self-heals from UI errors, consults user-provided MCP servers/Agent Skills, and generates reproducible Playwright scripts and Markdown reports.</li>
+                            <li><strong>Intelligent PR Analysis:</strong> Analyzes GitHub PRs by extracting code diffs, feeding them to an LLM, and auto-generating targeted test missions for likely impacted UI areas.</li>
+                        </ul>
+                    </li>
+                    <li class="pl-5 border-l-2 border-slate-300 relative">
+                        <strong class="text-slate-900">AI Test Reviewer (CrewAI):</strong> Developed an AI-powered PR analysis tool using CrewAI that automatically highlights code coverage gaps and generates actionable test suggestions.
+                    </li>
+                    <li class="pl-5 border-l-2 border-slate-300 relative">
+                        <strong class="text-slate-900">AI-Assisted Development:</strong> Professionally utilize <strong>Claude Code</strong> to rapidly prototype test frameworks, generate robust automation scripts, and optimize infrastructure deployments.
+                    </li>
+                    <li class="pl-5 border-l-2 border-slate-300 relative">
+                        <strong class="text-slate-900">TestOps & Observability:</strong> Integrated CI-integrated synthetic monitoring using Prometheus Push Gateway. Built Grafana and Prometheus dashboards to track flaky tests and analyze historical behavior.
+                    </li>
+                    <li class="pl-5 border-l-2 border-slate-300 relative">
+                        <strong class="text-slate-900">Scale & Traceability:</strong> Built a maintenance validation pipeline running E2E tests across 70+ systems. Linked GitHub boards to HTML test reports (including public AWS reports) for issue traceability.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Mentorship & Open Source Leadership -->
+            <section class="mb-12 print-break-inside-avoid">
+                <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mb-6 flex items-center gap-3">
+                    <i class="fas fa-users text-slate-400"></i> Mentorship & Open Source Leadership
+                </h2>
+                <p class="text-slate-700 mb-5">Currently mentoring two high-impact <strong>Google Summer of Code</strong> projects:</p>
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 shadow-sm hover:shadow transition-shadow">
+                        <h4 class="font-bold text-slate-900">AI-Based Test Selection</h4>
+                        <p class="text-sm text-slate-600 mt-2 leading-relaxed">Guiding the development of ML models to intelligently select E2E tests based on code coverage analysis.</p>
+                    </div>
+                    <div class="bg-slate-50 p-5 rounded-lg border border-slate-200 shadow-sm hover:shadow transition-shadow">
+                        <h4 class="font-bold text-slate-900">AI-Powered Intelligent Monitoring & Root Cause Analysis</h4>
+                        <p class="text-sm text-slate-600 mt-2 leading-relaxed">Mentoring the creation of a standalone AI agent for the Uyuni ecosystem. Processes Prometheus metrics, leverages LangChain and local/cloud LLMs (Ollama/Qwen, Gemini API), and autonomously triggers SaltStack diagnostic commands to push enriched root-cause explanations to AlertManager.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Professional Experience -->
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mb-8 flex items-center gap-3">
+                    <i class="fas fa-briefcase text-slate-400"></i> Professional Experience
+                </h2>
+
+                <!-- SUSE -->
+                <div class="mb-10 print-break-inside-avoid">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">QE Architect</h3>
+                            <h4 class="text-lg text-slate-600 font-medium mt-1">SUSE <span class="text-slate-400 text-sm ml-2 font-normal"><i class="fas fa-globe-americas mr-1"></i>Remote</span></h4>
+                        </div>
+                        <span class="bg-slate-100 text-slate-700 border border-slate-200 text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap shadow-sm">2018 – Current</span>
+                    </div>
+                    <ul class="list-disc pl-5 text-slate-700 space-y-2 mt-4 marker:text-slate-400">
+                        <li>Drive the technical vision for the Quality Engineering team, evolving sustainable testing processes into AI-augmented workflows and aligning toolchains with PO/PM quality standards.</li>
+                        <li>Function as a core technical advisor, utilizing data and AI tools to reduce uncertainty, refine estimations, and facilitate sprint planning.</li>
+                        <li>Make critical technical decisions regarding test frameworks, Infrastructure as Code (IaC), and CI/CD pipelines.</li>
+                        <li>Actively foster a culture of learning by sharing insights on DevOps, Automation, and QA, and co-creating/facilitating the monthly SUSE DevOps Meetup.</li>
+                    </ul>
+                </div>
+
+                <!-- King -->
+                <div class="mb-10 print-break-inside-avoid">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">Senior SDET / Backend Developer</h3>
+                            <h4 class="text-lg text-slate-600 font-medium mt-1">King (Activision Blizzard) <span class="text-slate-400 text-sm ml-2 font-normal"><i class="fas fa-map-marker-alt mr-1"></i>Barcelona & London</span></h4>
+                        </div>
+                        <span class="bg-slate-50 text-slate-600 border border-slate-200 text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap shadow-sm">2014 – 2018</span>
+                    </div>
+                    <ul class="list-disc pl-5 text-slate-700 space-y-2 mt-4 marker:text-slate-400">
+                        <li>Designed and developed a highly reliable Java test framework from scratch, reducing execution time on recurrent test tasks by 90%.</li>
+                        <li>Contributed heavily to DevOps processes by containerizing applications and streamlining CI/CD using Jenkins and Git Hooks.</li>
+                        <li>Developed backend features for games and web services, focusing on reusability and maintainability to boost monetization.</li>
+                    </ul>
+                </div>
+
+                <!-- Telefonica -->
+                <div class="mb-8 print-break-inside-avoid">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">QA Lead</h3>
+                            <h4 class="text-lg text-slate-600 font-medium mt-1">Telefónica Digital <span class="text-slate-400 text-sm ml-2 font-normal"><i class="fas fa-map-marker-alt mr-1"></i>Barcelona</span></h4>
+                        </div>
+                        <span class="bg-slate-50 text-slate-600 border border-slate-200 text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap shadow-sm">2009 – 2014</span>
+                    </div>
+                    <ul class="list-disc pl-5 text-slate-700 space-y-2 mt-4 marker:text-slate-400">
+                        <li>Led a team of five SDETs to launch a robust CDN platform, which currently serves as the backbone for Movistar TV.</li>
+                        <li>Designed a high-speed Python BDD test framework running on RedHat servers to ensure rapid regression testing.</li>
+                        <li>Evaluated the performance of commercial CDNs applying advanced network diagnostics, and managed test automation for R&D spanning iOS/Android and OpenStack.</li>
+                    </ul>
+                </div>
+
+                <!-- Previous Roles -->
+                <div class="print-break-inside-avoid pt-6 mt-8">
+                    <h4 class="font-bold text-slate-800 mb-4 uppercase tracking-wider text-sm border-b border-slate-100 pb-2">Previous Engineering Roles</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <strong class="text-slate-900 block">INRIA</strong>
+                            <em class="text-slate-500 text-sm block mb-2">Nancy, France (2007 – 2009)</em>
+                            <span class="text-sm text-slate-600 block">Contributed to an open-source SOA platform and integrated web services on the BonitaSoft BPM solution. Presented findings at JavaOne 2009.</span>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <strong class="text-slate-900 block">BULL S.A.S</strong>
+                            <em class="text-slate-500 text-sm block mb-2">Grenoble, France (2006 – 2007)</em>
+                            <span class="text-sm text-slate-600 block">Designed BPM processes using XPDL and conducted in-depth performance and cluster analyses of BonitaSoft.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Speaking Engagements -->
+            <section class="print-break-inside-avoid">
+                <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3 mb-6 flex items-center gap-3">
+                    <i class="fas fa-microphone-alt text-slate-400"></i> Speaking Engagements & Talks
+                </h2>
+                <div class="space-y-4">
+                    <ul class="list-disc pl-5 text-slate-700 space-y-3 mt-4 marker:text-slate-400">
+                        <li><strong class="text-slate-900">SeleniumConf 2026:</strong> <em class="text-slate-600">Quality on Autopilot: Scaling Testing in Uyuni</em></li>
+                        <li><strong class="text-slate-900">openSUSECon 2025:</strong> <em class="text-slate-600">Quality on Autopilot: Scaling Testing in Uyuni</em></li>
+                        <li><strong class="text-slate-900">SeleniumConf 2025:</strong> <em class="text-slate-600">Smart Test Selection for PRs Using Coverage</em></li>
+                        <li><strong class="text-slate-900">SUSECon 2022:</strong> <em class="text-slate-600">Automated QA for Maintenance Updates</em></li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
