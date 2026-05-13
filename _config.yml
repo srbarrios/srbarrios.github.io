@@ -21,7 +21,7 @@ author:  # change following line to your infomation.
   gitlab_username: oscar.barrios  # Leave blank if you don't have now
   #twitter_username:   # Leave blank if you don't have now
   email: oscarbarrios@gmail.com  # Leave blank if you don't have now
-  cv: /static/assets/cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: /static/assets/cv.html  # An online CV can be printed as PDF
   matrix: srbarrios
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
