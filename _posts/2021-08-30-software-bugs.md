@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Introduction to Software bugs
 permalink: /software-bugs/
-icon: /static/assets/img/blog/software_bugs.png
 keywords: "bug,defect,error,failure,bugzilla,test,quality"
 categories:
   - Development

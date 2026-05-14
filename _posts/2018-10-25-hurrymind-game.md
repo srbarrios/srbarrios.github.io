@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Demo game made with Unity3D
 permalink: /hurrymind-game/
-icon: /static/assets/img/blog/game_example.png
 keywords: "game,mobile,unity3d"
 categories:
   - Development

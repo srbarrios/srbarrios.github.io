@@ -12,7 +12,6 @@ enclosure:
     0
     video/mp4
     
-icon: /static/assets/img/blog/pipeline.png
 keywords: "ci,jenkins,pipelines,parallel,tests"
 categories:
   - Development

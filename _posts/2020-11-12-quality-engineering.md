@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Quality Control, Quality Assurance and Quality Engineering
 permalink: /quality-engineering/
-icon: /static/assets/img/blog/qe.png
 keywords: "quality,qa,qe,engineering,assitance,assurance,control"
 categories:
   - Development

@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Introduction made as part of the first DevOps meetup in SUSE
 permalink: /devops-introduction/
-icon: /static/assets/img/blog/devops.png
 keywords: "devops,cycle,culture,meetup"
 categories:
   - Development

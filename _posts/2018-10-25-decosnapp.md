@@ -7,7 +7,6 @@ comments: true
 desc: DecoSnapp (Augmented Reality app)
 permalink: /decosnapp/
 keywords: "art,ar,decoration,unity3d,app"
-icon: /static/assets/img/blog/decosnapp.png
 enclosure:
   - |
     /static/assets/img/blog/decosnapp.mp4

@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Code Coverage
 permalink: /code-coverage-workshop/
-icon: /static/assets/img/blog/code_coverage.png
 keywords: "tdd,code-coverage,coverage,cyclomatic,complexity,workshop,test,quality"
 categories:
   - Development

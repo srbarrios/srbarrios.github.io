@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: BDD in a development team
 permalink: /a-good-methodology-for-a-development-team/
-icon: /static/assets/img/blog/bdd.png
 keywords: "bdd,cucumber,testing,automation,gherkin,agile"
 categories:
   - Development

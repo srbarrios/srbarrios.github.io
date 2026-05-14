@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: A product-agnostic, AI-driven exploratory testing framework built with LangGraph to help Quality Engineering teams.
 permalink: /agentic-test-explorer/
-icon: /static/assets/img/blog/agentic-test-explorer.png
 keywords: "agentic,exploratory testing,langgraph,playwright,ai,qa,automation,mcp,claude"
 categories:
   - Development

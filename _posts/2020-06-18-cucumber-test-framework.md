@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: 'Starter skeleton of Cucumber a Test Framework'
 permalink: /cucumber-test-framework/    
-icon: /static/assets/img/blog/test_framework.png
 keywords: "test,framework,ruby,cucumber,capybara"
 categories:
   - Development

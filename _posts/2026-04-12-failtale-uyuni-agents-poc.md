@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: New PoC using crewAI agents to review Uyuni test failures
 permalink: /failtale-uyuni-agents-poc/
-icon: /static/assets/img/blog/failtale.png
 keywords: "failtale,uyuni,crewai,agents,testing,automation,ai,root-cause"
 categories:
   - Development

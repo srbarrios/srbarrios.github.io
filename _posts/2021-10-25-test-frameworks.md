@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Test Frameworks workshop
 permalink: /test-frameworks-workshop/
-icon: /static/assets/img/blog/test_frameworks.png
 keywords: "tdd,bdd,test_framework,workshop,test,quality"
 categories:
   - Development

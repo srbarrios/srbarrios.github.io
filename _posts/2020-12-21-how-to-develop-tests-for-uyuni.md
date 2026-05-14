@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: 'Starter skeleton of Cucumber a Test Framework'
 permalink: /uyuni-test-development/    
-icon: /static/assets/img/blog/test_development.png
 keywords: "test,development,framework,ruby,cucumber,capybara,chromedriver"
 categories:
   - Development

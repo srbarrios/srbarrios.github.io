@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Online shop made with Prestashop
 permalink: /mipintura-com/
-icon: /static/assets/img/blog/mi_pintura.png
 keywords: "art,shop,prestashop"
 categories:
   - Life

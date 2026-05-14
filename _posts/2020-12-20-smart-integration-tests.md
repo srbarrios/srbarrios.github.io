@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: Using Cucumber profiles and Analizing code changes
 permalink: /smart-integration-tests/
-icon: /static/assets/img/blog/smart_integration_tests.png
 keywords: "integration,tests,ci,cucumber,tags,profiles,github,actions,code,changes"
 categories:
   - Development

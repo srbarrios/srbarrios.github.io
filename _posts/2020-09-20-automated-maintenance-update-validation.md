@@ -6,7 +6,6 @@ layout: post
 comments: true
 desc: 'SUSECon 2020 Talk: Automated QA for Maintenance Updates'
 permalink: /automated-mu-validation/    
-icon: /static/assets/img/blog/maintenance_update.png
 keywords: "test,pipelines,maintenance"
 categories:
   - Development
