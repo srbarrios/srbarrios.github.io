@@ -5,7 +5,7 @@ author: Oscar Barrios
 layout: post
 comments: true
 desc: A small deterministic report tool I vibe-coded on the train ride home from SeleniumConf.
-permalink: /test-report-vibes/
+permalink: /test-report-vibes-tool/
 keywords: "cucumber,seleniumconf,test automation,python,reporting"
 categories:
   - Development
