@@ -66,6 +66,9 @@ blog_carousel: on  # blog page carousel switch
 sass:
   style: compressed
 
+include:
+  - .well-known
+
 # Build settings
 encoding: utf-8
 

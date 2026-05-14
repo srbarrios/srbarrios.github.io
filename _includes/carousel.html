@@ -7,12 +7,16 @@
                 <div class="carousel-image wow animate__zoomIn">
                 </div>
             </div>
-            <!-- Set background for slide in css -->
+            {% if site.data.index.banners[0].type == "css-banner" %}
+            <div class="header-back header-back--custom" title="{{ site.data.index.banners[0].title }}">
+            </div>
+            {% else %}
             <div
             class="header-back"
             style="background-image: url({{ '/static/assets/img/' | prepend: site.baseurl }}{{ site.data.index.banners[0].src }}); background-position: top center; background-repeat: no-repeat; background-size: contain;"
             title="{{ site.data.index.banners[0].title }}">
             </div>
+            {% endif %}
         </div>
 
         {% for banner in site.data.index.banners offset:1 %}
@@ -23,9 +27,13 @@
                 <div class="carousel-image wow animate__zoomIn">
                 </div>
             </div>
-            <!-- Set background for slide in css -->
+            {% if banner.type == "css-banner" %}
+            <div class="header-back header-back--custom" title="{{ banner.title }}">
+            </div>
+            {% else %}
             <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }}); background-position: top center;
     background-repeat: no-repeat; background-size: contain;" title="{{ banner.title }}"></div>
+            {% endif %}
         </div>
         {% endfor %}
 

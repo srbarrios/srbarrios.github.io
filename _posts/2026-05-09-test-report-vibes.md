@@ -68,17 +68,8 @@ Generate a report:
 test-report-vibes examples/sample_report_with_classifiers.json
 ```
 
-Or run as a module:
-
-```bash
-python -m test_report_vibes cucumber-report.json
-```
-
-## A conference-to-code moment
+## A train-to-code moment
 
 I love these moments where conference energy turns into a working tool in just a few hours. SeleniumConf gave me the spark; the train ride gave me uninterrupted focus.
 
 If you work with Cucumber and want tighter failure triage, give it a try and tell me what you think.
-
-Project link again: [https://github.com/srbarrios/test-report-vibes](https://github.com/srbarrios/test-report-vibes)
-
