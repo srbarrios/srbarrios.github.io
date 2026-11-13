@@ -5,32 +5,31 @@
     i18n: suse
   desc:
     detail: >
-      Quality Engineering Architect for Multi-Linux Manager. <br><br>
-      Leading the technical strategy for scalable, observable, and developer-friendly test automation. I focus on test architecture, tooling, Test Infrastructure as Code (IaC), and End-to-End automation strategy, driving a full TestOps transformation within a fast-moving open-source environment.<br><br>
+      <b>Platform Engineer, ITPE-CORE (Aug. 2026 - Nov. 2026):</b> Core platform engineering and open infrastructure operations across Rancher Harvester and RKE2 Kubernetes environments. Administered enterprise NetApp storage, centralized inventory in NetBox, built full-stack observability pipelines (SUSE Observability, Grafana, Prometheus, Alertmanager, Zabbix) and kept core network services (DNS/DHCP, NTP, HAProxy) highly available.<br><br>
+      <b>QE Architect, Multi-Linux Manager (Nov. 2018 - Nov. 2026):</b> Previously QE Squad Coordinator and Test Product Owner (team of 8). Leading the technical strategy for scalable, observable, and developer-friendly test automation. I focus on test architecture, tooling, Test Infrastructure as Code (IaC), and End-to-End automation strategy, driving a full TestOps transformation within a fast-moving open-source environment.<br><br>
       <h4>Key Engineering Contributions</h4>
       <ul>
       <li><b>AI & Automation:</b> Developed an AI-powered PR analysis tool for coverage gaps and lead smart PR E2E test selection based on code coverage (presented at SeleniumConf 2025).</li>
       <li><b>Infrastructure & Observability:</b> Integrated CI synthetic monitoring via Prometheus Push Gateway and built historical flaky test tracking dashboards in Grafana.</li>
       <li><b>Scalability:</b> Built a maintenance validation pipeline capable of running automated E2E tests across 70+ systems in parallel.</li>
       <li><b>Developer Experience:</b> Developed and maintain DevContainers to standardize contributor IDE environments and linked GitHub boards to HTML reports for full issue traceability.</li>
-      <li><b>Mentorship:</b> Mentoring at Google Summer of Code (projects for powering TestOps with AI).</li>
+      <li><b>Mentorship:</b> Mentor at Google Summer of Code 2025 and 2026 (openSUSE Project), including AI-based predictive test selection.</li>
       </ul>
       <h4>Speaking & Community</h4>
       <ul>
-      <li>Featured speaker at SeleniumConf (2025, 2026), openSUSECon, and SUSECon.</li>
+      <li>Speaker at SeleniumConf 2025 and 2026, openSUSECon 2025 and SUSECon 2020. Previously Adjunct Professor at UAB (Software Testing and Quality Engineering, 2021-2022).</li>
       <li>Co-creator of SUSE’s internal monthly DevOps Meetup.</li>
       </ul>
       <h4>Tech Stack</h4>
-      Terraform, Salt, Prometheus, Grafana, GitHub Actions, Jenkins, Ruby, Python, Bash, Cucumber, Docker, AWS, Azure, GCP, DevContainers, Ollama, and Gemini APIs.
+      Terraform/OpenTofu, Salt, Prometheus, Grafana, GitHub Actions, Jenkins, Ruby, Python, Bash, Cucumber, Docker, AWS, Azure, GCP, GitHub Projects, HTML Test Reports, DevContainers, Bugzilla, CrewAI, Ollama, and Gemini APIs.
     i18n: suse_job_detail
   date:
-    detail: Nov. 2018
+    detail: Nov. 2018 - Nov. 2026
     i18n: nov_2018
   job:
-    detail: QE Architect
+    detail: Platform Engineer / QE Architect
     i18n: qe_architect
   icon: icon-suse
-  present: true
 
 - name:
     detail: King Games (Activision Blizzard)
