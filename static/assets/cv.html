@@ -12,6 +12,27 @@
     <meta property="og:description" content="QE Architect with 20 years in test automation, TestOps, CI/CD and observability, moving into Platform Engineering.">
     <meta property="og:url" content="https://oscarbarrios.tech/static/assets/cv.html">
     <meta property="og:image" content="https://oscarbarrios.tech/static/assets/img/landing/oscar-barrios.png">
+        <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGDFX8WY5R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YGDFX8WY5R');
+        document.addEventListener('click', function (e) {
+            var a = e.target.closest ? e.target.closest('a[href]') : null;
+            if (!a) return;
+            if (/cv\.pdf$/i.test(a.pathname || '')) {
+                gtag('event', 'cv_download', { file_name: 'cv.pdf', link_url: a.href, transport_type: 'beacon' });
+            } else if (a.href.indexOf('mailto:') === 0) {
+                gtag('event', 'contact_click', { method: 'email', transport_type: 'beacon' });
+            } else if (a.hostname.indexOf('linkedin.com') !== -1) {
+                gtag('event', 'contact_click', { method: 'linkedin', transport_type: 'beacon' });
+            } else if (a.hostname === 'github.com') {
+                gtag('event', 'contact_click', { method: 'github', link_url: a.href, transport_type: 'beacon' });
+            }
+        }, true);
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
