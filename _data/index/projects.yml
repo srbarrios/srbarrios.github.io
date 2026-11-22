@@ -1,6 +1,54 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Sumaform
+  i18n: sumaform
+  repo: sumaform
+  gh_user: uyuni-project
+  url: https://github.com/uyuni-project/sumaform
+  img: /static/assets/img/landing/sumaform.png
+  desc: Infrastructure as Code (Terraform/OpenTofu + Salt) that deploys virtual machines for multiple operating systems on KVM/QEMU to build Uyuni test and demo environments. Long-time contributor, with 150+ pull requests.
+
+- name: Agentic Test Explorer
+  i18n: agentic_test_explorer
+  repo: agentic-test-explorer
+  gh_user: srbarrios
+  url: https://github.com/srbarrios/agentic-test-explorer
+  img: /static/assets/img/landing/agentic-test-explorer.png
+  desc: AI-driven exploratory testing framework built with LangGraph, Playwright and MCP. It analyses pull requests, drives a real browser and generates Playwright scripts and reports (Python).
+
+- name: Uyuni Cucumber + Playwright
+  i18n: uyuni_cucumber_playwright
+  repo: uyuni-cucumber-playwright
+  gh_user: srbarrios
+  url: https://github.com/srbarrios/uyuni-cucumber-playwright
+  img: /static/assets/img/landing/uyuni-cucumber-playwright.png
+  desc: Proof of concept migrating a large Capybara/Selenium (Ruby) end-to-end suite to Playwright with TypeScript and CucumberJS.
+
+- name: Jenkins Flaky Tests Detector
+  i18n: jenkins_flaky_tests_detector
+  repo: jenkins-flaky-tests-detector
+  gh_user: srbarrios
+  url: https://github.com/srbarrios/jenkins-flaky-tests-detector
+  img: /static/assets/img/landing/jenkins-flaky-tests-detector.png
+  desc: Dockerised Python agent that reads Jenkins test history from Prometheus, classifies flaky tests with an LLM and serves the result to Grafana.
+
+- name: Test Report Vibes
+  i18n: test_report_vibes
+  repo: test-report-vibes
+  gh_user: srbarrios
+  url: https://github.com/srbarrios/test-report-vibes
+  img: /static/assets/img/landing/test-report-vibes.png
+  desc: Small deterministic tool that turns Cucumber test reports into a readable HTML summary (Python).
+
+- name: Playwright BDD Skeletons
+  i18n: playwright_skeletons
+  repo: playwright-cucumber-skeleton
+  gh_user: srbarrios
+  url: https://github.com/srbarrios/playwright-cucumber-skeleton
+  img: /static/assets/img/landing/playwright-skeletons.png
+  desc: Starter projects for BDD end-to-end testing with Playwright in TypeScript (CucumberJS) and Python (pytest-bdd and behave).
+
 - name: Trippins
   i18n: mytripinpics
   url: https://gitlab.com/oscar.barrios/mytripinpics
@@ -21,6 +69,8 @@
 
 - name: FailTale
   i18n: failtale
-  url: https://github.com/srbarrios/failtale-crewai
+  repo: FailTale
+  gh_user: srbarrios
+  url: https://github.com/srbarrios/FailTale
   img: /static/assets/img/landing/failtale.png
   desc: An AI agent is triggered by test failures. It uses an MCP tool to perform remote SSH commands on relevant hosts, collects the resulting data, and analyzes it utilizing a multi-agent crew.

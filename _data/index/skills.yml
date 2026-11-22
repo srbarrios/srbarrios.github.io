@@ -2,5 +2,5 @@
 
 label: ability
 id : skills_chart
-aspects: Python, Ollama, Gemini APIs, Prompt Engineering, AI on Test Automation, Prometheus, Grafana, Kubernetes, Docker, Terraform, GitHub Actions, AWS/GCP/Azure, Linux, TestOps, QE Architecture, Exploratory Testing, Cucumber
-percentage: 75, 80, 80, 75, 85, 95, 95, 90, 95, 85, 95, 80, 100, 95, 100, 85, 90
+aspects: Python, Go, TypeScript, Playwright, Ollama, Gemini APIs, Prompt Engineering, AI on Test Automation, Prometheus, Grafana, Kubernetes, Docker, Terraform, KVM/QEMU, GitHub Actions, AWS/GCP/Azure, Linux, TestOps, QE Architecture, Exploratory Testing, Cucumber
+percentage: 85, 70, 75, 85, 80, 80, 75, 85, 95, 95, 90, 95, 85, 85, 95, 80, 100, 95, 100, 85, 90

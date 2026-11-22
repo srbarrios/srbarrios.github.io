@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oscar Barrios - QE Architect & Platform Engineer</title>
+    <title>Oscar Barrios - QE Architect &amp; Platform Engineer | CV</title>
+    <meta name="description" content="CV of Oscar Barrios: QE Architect with 20 years in test automation, TestOps, CI/CD and observability, moving into Platform Engineering.">
+    <meta name="author" content="Oscar Barrios">
+    <link rel="canonical" href="https://oscarbarrios.tech/static/assets/cv.html">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Oscar Barrios - QE Architect &amp; Platform Engineer | CV">
+    <meta property="og:description" content="QE Architect with 20 years in test automation, TestOps, CI/CD and observability, moving into Platform Engineering.">
+    <meta property="og:url" content="https://oscarbarrios.tech/static/assets/cv.html">
+    <meta property="og:image" content="https://oscarbarrios.tech/static/assets/img/landing/oscar-barrios.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        @page { size: A4; margin: 0; }
+        * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
         @media print {
+            /* Keep the two-column desktop layout in the PDF (A4 is narrower than the md breakpoint) */
+            body > div { flex-direction: row !important; min-height: 0 !important; }
+            html { zoom: 0.74; }
+            .truncate { overflow: visible !important; text-overflow: clip !important; }
+            aside { width: 30% !important; min-height: 0 !important; }
+            main { width: 70% !important; padding: 2rem !important; }
             body {
                 background-color: #ffffff !important;
                 color: #000000 !important;
@@ -61,6 +77,13 @@
                 </div>
             </div>
 
+            <!-- PDF download (hidden when printing) -->
+            <div class="mb-8 no-print">
+                <a href="https://oscarbarrios.tech/static/assets/cv.pdf" download class="flex items-center justify-center gap-2 bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-200 text-xs font-semibold uppercase tracking-wider px-3 py-2 rounded transition">
+                    <i class="fas fa-file-pdf"></i> Download PDF
+                </a>
+            </div>
+
             <!-- Tech Stack -->
             <div class="mb-8">
                 <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 border-b border-slate-800 pb-2 mb-4">Tech Stack</h3>
@@ -69,6 +92,7 @@
                     <h4 class="text-[11px] font-semibold text-slate-400 uppercase mb-2">Platform &amp; Infrastructure</h4>
                     <div class="flex flex-wrap gap-1.5">
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Kubernetes / RKE2</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">KVM / QEMU</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Rancher Harvester</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">NetApp</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">NetBox</span>
@@ -97,6 +121,9 @@
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Jenkins</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Ruby</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Python</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Go</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">TypeScript</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Playwright</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Bash</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Cucumber</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Docker</span>
@@ -111,6 +138,8 @@
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Ollama</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Gemini APIs</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">LangChain</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">LangGraph</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">MCP</span>
                         <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">LangSmith</span>
                     </div>
                 </div>
@@ -141,7 +170,7 @@
                         I'm a QE Architect and Expert Software Engineer with over 20 years of experience in software engineering, test automation and quality engineering. I started my career in backend development at INRIA and later worked at King and Telefónica before joining SUSE, where I spent almost eight years working on test automation, quality engineering and engineering practices. My work has focused on designing automation strategies, building test frameworks and improving CI/CD workflows, with an emphasis on making software more reliable and easier to maintain.
                     </p>
                     <p>
-                        More recently, I broadened my experience into Platform and Infrastructure Engineering as part of SUSE's IT Platform Engineering CORE team, working with Kubernetes environments, storage, inventory, network services and observability. I also enjoy sharing knowledge through conference talks, open-source mentoring and teaching.
+                        I am also a long-time contributor to Sumaform, the open-source Infrastructure as Code project (Terraform/OpenTofu and Salt) that deploys virtual machines for multiple operating systems on KVM/QEMU for Uyuni environments. More recently, I broadened my experience into Platform and Infrastructure Engineering as part of SUSE's IT Platform Engineering CORE team, working with Kubernetes environments, storage, inventory, network services and observability. I also enjoy sharing knowledge through conference talks, open-source mentoring and teaching.
                     </p>
                 </div>
             </section>
@@ -171,6 +200,10 @@
                     <li class="flex items-start gap-2">
                         <span class="text-slate-400 font-bold mt-0.5">•</span>
                         <div><strong class="text-slate-900">Developer experience:</strong> Linked GitHub boards to HTML test reports for traceability and developed DevContainers to standardise contributor test environments.</div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-slate-400 font-bold mt-0.5">•</span>
+                        <div><strong class="text-slate-900">Infrastructure as Code:</strong> Long-time contributor to Sumaform, the Terraform/OpenTofu + Salt project that deploys virtual machines for multiple operating systems on KVM/QEMU for Uyuni environments.</div>
                     </li>
                     <li class="flex items-start gap-2">
                         <span class="text-slate-400 font-bold mt-0.5">•</span>
@@ -352,6 +385,43 @@
                         <span class="bg-slate-100 text-slate-700 border border-slate-200 text-xs font-semibold px-2.5 py-0.5 rounded mt-1 sm:mt-0 w-fit">Feb 2007 – Aug 2007</span>
                     </div>
                     <p class="text-sm text-slate-700 mt-1">Studied and optimised Bonita Workflow performance in clustered environments, testing application servers and JVM implementations and developing custom ANT tasks and JUnit suites.</p>
+                </div>
+            </section>
+
+            <!-- Open Source Projects -->
+            <section class="mb-10 print-break-inside-avoid">
+                <h2 class="text-xl font-bold text-slate-900 border-b border-slate-200 pb-2 mb-4 flex items-center gap-2">
+                    <i class="fas fa-code-branch text-slate-500 text-lg"></i> Open Source Projects
+                </h2>
+                <div class="space-y-3 text-sm text-slate-700">
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Sumaform <span class="text-slate-400 font-normal">| github.com/uyuni-project/sumaform</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Long-time contributor (150+ pull requests) to the Infrastructure as Code project that uses Terraform/OpenTofu and Salt to deploy virtual machines for multiple operating systems on KVM/QEMU, building Uyuni test and demo environments.</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Agentic Test Explorer <span class="text-slate-400 font-normal">| github.com/srbarrios/agentic-test-explorer</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Product-agnostic, AI-driven exploratory testing framework built with LangGraph, Playwright and MCP tools. It explores applications, analyses pull requests, generates Playwright scripts and writes reports (Python).</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Uyuni Cucumber + Playwright <span class="text-slate-400 font-normal">| github.com/srbarrios/uyuni-cucumber-playwright</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Proof of concept migrating a large Capybara/Selenium (Ruby) end-to-end suite to Playwright with TypeScript and CucumberJS.</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">FailTale <span class="text-slate-400 font-normal">| github.com/srbarrios/FailTale</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">AI agent triggered by test failures: it collects context from the relevant hosts over SSH and analyses the root cause with Ollama, Gemini or OpenAI.</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Jenkins Flaky Tests Detector <span class="text-slate-400 font-normal">| github.com/srbarrios/jenkins-flaky-tests-detector</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Dockerised Python agent that reads Jenkins metrics from Prometheus, analyses failure patterns with an LLM and exposes insights for Grafana dashboards.</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Test Report Vibes <span class="text-slate-400 font-normal">| github.com/srbarrios/test-report-vibes</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Small deterministic tool that turns Cucumber test reports into a readable HTML summary (Python).</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Playwright BDD skeletons <span class="text-slate-400 font-normal">| github.com/srbarrios</span></h4>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">Starter projects for BDD end-to-end testing with Playwright in TypeScript (CucumberJS) and Python (pytest-bdd and behave).</p>
+                    </div>
                 </div>
             </section>
 

@@ -5,10 +5,10 @@
             <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
         </div>
     </div>
-    <div class="row">
-        <!-- first two icons -->
+    <div class="row justify-content-center align-items-center">
+        <!-- first icons -->
         {% for icon in site.author.skill_icon1 %}
-        <div class="col-2 wow animate__fadeInLeft">
+        <div class="col-auto px-3 wow animate__fadeInLeft">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
                     <i class="{{ icon.name }}"></i>
@@ -17,15 +17,15 @@
         </div>
         {% endfor %}
         <!-- avatar -->
-        <div class="col-4">
+        <div class="col-auto px-4">
             <div class="team-member wow animate__zoomIn">
-                <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-fluid img-circle" alt="">
+                <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-fluid img-circle" alt="{{ site.author.name }}">
                 <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
             </div>
         </div>
         <!-- second two icons -->
         {% for icon in site.author.skill_icon2 %}
-        <div class="col-2 wow animate__fadeInRight">
+        <div class="col-auto px-3 wow animate__fadeInRight">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
                     <i class="{{ icon.name }}"></i>
@@ -54,6 +54,7 @@
                     <li><a href="mailto:{{ site.author.email }}"><i class="fa-regular fa-envelope"></i></a></li>
                     {% endif %}
                     <li><a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa-solid fa-rss"></i></a></li>
+                    <li><a href="{{ '/static/assets/cv.pdf' | prepend: site.baseurl }}" target="blank" title="Download CV (PDF)"><i class="fa-regular fa-file-pdf"></i></a></li>
                     {% if site.author.cv %}
                     <li><a href="{{ site.author.cv }}" target="blank"><i class="fa-regular fa-address-card"></i></a></li>
                     {% endif %}

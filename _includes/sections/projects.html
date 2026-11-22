@@ -1,7 +1,7 @@
 <div class="container" id="i18_projects">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
-            <h1><span data-i18n="projects.my_projects">Past hobby projects</span></h1>
+            <h1><span data-i18n="projects.my_projects">Projects</span></h1>
         </div>
     </div>
     <div class="row">
@@ -17,7 +17,7 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} animate__fadeInLeft {% else %} animate__fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  <img src="{{ project.img | prepend: site.baseurl }}" class="img-fluid img-small" alt="">
+                  {% if project.img %}<img src="{{ project.img | prepend: site.baseurl }}" class="img-fluid img-small" alt="{{ project.name }}">{% endif %}
                   <h4>
                   {% if project.url %}
                   <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>

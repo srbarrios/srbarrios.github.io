@@ -2,12 +2,12 @@
 
 # Website settings
 title: oscarbarrios.tech
-description: > # this means to ignore newlines until "keywords:"
-  Hello everyone! I'm Oscar Barrios, and I'm thrilled to introduce you to oscarbarrios.tech, my new space for exploring the intersection of Testing and DevOps. As a QE Architect and a big fan of Agile methodologies and DevOps culture , I've spent years embracing new technologies and building robust software architectures across companies like SUSE , King Activision Blizzard , and Telefónica Digital. My experience in scaling testing, developing CI/CD pipelines , and driving quality standards  has shown me the power of bringing automation, tools, and processes together. From building AI-powered PR analysis tools and implementing CI-integrated synthetic monitoring , to mentoring the next generation of engineers , I'm passionate about sharing ideas related to DevOps, Automation, and QA. At oscarbarrios.tech, I plan to share insights, articles, and code on topics like Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), smart test selection, and the latest tools in the TestOps landscape—including those from my current tech stack like Terraform, Prometheus, Grafana, Python, Go, Selenium, and Ollama. Join me as we explore how to achieve Quality on Autopilot!
-keywords: blog, oscar, barrios, qa, automation, testing, devops, development, selenium
+description: >-
+  Oscar Barrios: QE Architect and software engineer with 20 years in test automation, TestOps, CI/CD and observability. Open to Platform Engineering and Quality Engineering roles.
+tagline: QE Architect | Test Automation, TestOps & Platform Engineering
+keywords: Oscar Barrios, QE Architect, test automation, TestOps, Platform Engineering, CI/CD, observability, Playwright, Python, Go, TypeScript, Kubernetes, Infrastructure as Code, KVM, Terraform, Prometheus, Grafana
 #baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-# url: https://srbarrios.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-url: http://127.0.0.1:4000
+url: https://oscarbarrios.tech
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
@@ -20,18 +20,21 @@ author:  # change following line to your infomation.
   linkedin_id: oscarbarrios # Leave blank if you don't have now
   gitlab_username: oscar.barrios  # Leave blank if you don't have now
   #twitter_username:   # Leave blank if you don't have now
-  email: oscarbarrios@gmail.com  # Leave blank if you don't have now
+  email: oscar.barrios@gmail.com
+  job_title: QE Architect  # Leave blank if you don't have now
   cv: /static/assets/cv.html  # An online CV can be printed as PDF
   matrix: srbarrios
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
+    - name: icon-python
+    - name: icon-go
     - name: fa-brands fa-linux
-    - name: icon-ruby
   skill_icon2:
-    - name: icon-csharp
+    - name: icon-typescript
+    - name: icon-ruby
     - name: icon-java
   desc: >
-    I am a QE Architect and Expert Software Engineer with 20 years of experience evolving the discipline of Test Automation. From my backend development roots at INRIA and King to my latest role at SUSE, where I also broadened into Platform and Infrastructure Engineering, I have treated quality as a core engineering and observability challenge. I'm now looking for new challenges in Platform Engineering, Infrastructure, TestOps or Quality Engineering Architecture.<br>
+    I am a QE Architect and Software Engineer with 20 years of experience evolving the discipline of Test Automation. From my backend development roots at INRIA and King to my latest roles at SUSE, where I also broadened into Platform and Infrastructure Engineering, I have treated quality as a core engineering and observability challenge, and as a long-time contributor to the Sumaform Infrastructure as Code project I have deployed multi-OS virtual environments on KVM with Terraform and Salt. I am now looking to move towards Platform Engineering and Infrastructure roles, building on my TestOps and Quality Engineering background.<br>
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -44,8 +47,8 @@ ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get
 
 # analytics
 ## Google Tag Manager
-gtm:
-  id: G-YGDFX8WY5R
+# gtm:   # disabled: G-... is a GA4 id, not a GTM container (GTM-XXXX); GA4 is already loaded via `ga`
+#  id: GTM-XXXXXXX
 
 ## google optimize
 go:
@@ -79,3 +82,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+
+# Files that must not be published
+exclude:
+  - build
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
