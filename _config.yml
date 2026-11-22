@@ -36,6 +36,9 @@ author:  # change following line to your infomation.
   desc: >
     I am a QE Architect and Software Engineer with 20 years of experience evolving the discipline of Test Automation. From my backend development roots at INRIA and King to my latest roles at SUSE, where I also broadened into Platform and Infrastructure Engineering, I have treated quality as a core engineering and observability challenge, and as a long-time contributor to the Sumaform Infrastructure as Code project I have deployed multi-OS virtual environments on KVM with Terraform and Salt. I am now looking to move towards Platform Engineering and Infrastructure roles, building on my TestOps and Quality Engineering background.<br>
 
+# Google Search Console verification (HTML tag method)
+google_site_verification: 50uAZomPB1SrZCCNNj0r6dNTQxTrg7ec-7JAH1vr3KY
+
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
   name: oubiti

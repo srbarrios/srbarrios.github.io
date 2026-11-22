@@ -41,6 +41,9 @@
 <meta name="keywords" content="{{ site.keywords | escape }}">
 {%- endif %}
 <meta name="author" content="{{ site.author.name }}">
+{%- if site.google_site_verification %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{%- endif %}
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{{ seo_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
