@@ -1,7 +1,7 @@
 <div class="container" id="i18_projects">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
-            <h1><span data-i18n="projects.my_projects">Projects</span></h1>
+            <h2 class="h1"><span data-i18n="projects.my_projects">Projects</span></h2>
         </div>
     </div>
     <div class="row">
@@ -17,8 +17,8 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} animate__fadeInLeft {% else %} animate__fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  {% if project.img %}<img src="{{ project.img | prepend: site.baseurl }}" class="img-fluid img-small" alt="{{ project.name }}">{% endif %}
-                  <h4>
+                  {% if project.img %}<img src="{{ project.img | prepend: site.baseurl }}" class="img-fluid img-small" width="88" height="88" loading="lazy" decoding="async" alt="{{ project.name }}">{% endif %}
+                  <h3 class="h4">
                   {% if project.url %}
                   <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
                   {% elsif project.repo %}
@@ -26,7 +26,7 @@
                   {% else %}
                   <span class="navy">{{ project.name }}</span>
                   {% endif %}
-                  </h4>
+                  </h3>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
                   {% if project.repo %}
                   <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">

@@ -17,7 +17,9 @@ layout: compress
         {% include blog_header.html %}
     {% endif %}
 
+    {% if page.title != 'index' %}<main id="main">{% endif %}
     {{ content }}
+    {% if page.title != 'index' %}</main>{% endif %}
 
     {% if page.title != 'index' %}
         {% include foot.html %}

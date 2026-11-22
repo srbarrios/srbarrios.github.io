@@ -1,7 +1,7 @@
 <div class="container" id="i18_about_me">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
-            <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+            <h2 class="h1"><span data-i18n="about_me.about_me">About Me</span></h2>
             <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
         </div>
     </div>
@@ -20,7 +20,7 @@
         <div class="col-auto px-4">
             <div class="team-member wow animate__zoomIn">
                 <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-fluid img-circle" alt="{{ site.author.name }}">
-                <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
+                <h3 class="h4"><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h3>
             </div>
         </div>
         <!-- second two icons -->
@@ -39,28 +39,28 @@
             <p>
                 <ul class="list-inline social-icon" style="display: flex; align-items: center; justify-content: center; ">
                     {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://github.com/{{ site.author.github_username }}" target="_blank" rel="me noopener" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="_blank" rel="me noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.gitlab_username %}
-                    <li><a href="https://www.gitlab.com/{{ site.author.gitlab_username }}" target="blank"><i class="fa-brands fa-gitlab"></i></a></li>
+                    <li><a href="https://gitlab.com/{{ site.author.gitlab_username }}" target="_blank" rel="me noopener" aria-label="GitLab"><i class="fa-brands fa-gitlab" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.twitter_username %}
                     <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa-brands fa-twitter"></i></a></li>
                     {% endif %}
                     {% if site.author.email %}
-                    <li><a href="mailto:{{ site.author.email }}"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li><a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a></li>
                     {% endif %}
-                    <li><a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa-solid fa-rss"></i></a></li>
-                    <li><a href="{{ '/static/assets/cv.pdf' | prepend: site.baseurl }}" target="blank" title="Download CV (PDF)"><i class="fa-regular fa-file-pdf"></i></a></li>
+                    <li><a href="{{ site.baseurl }}/feed.xml" target="_blank" rel="noopener" aria-label="RSS feed"><i class="fa-solid fa-rss" aria-hidden="true"></i></a></li>
+                    <li><a href="{{ '/static/assets/cv.pdf' | prepend: site.baseurl }}" target="_blank" rel="noopener" title="Download CV (PDF)" aria-label="Download CV (PDF)"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i></a></li>
                     {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa-regular fa-address-card"></i></a></li>
+                    <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener" aria-label="CV (web)"><i class="fa-regular fa-address-card" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.matrix %}
                     <li>
-                        <a href="https://matrix.to/#/@{{ site.author.matrix }}:matrix.org" target="_blank" 
+                        <a href="https://matrix.to/#/@{{ site.author.matrix }}:matrix.org" target="_blank" rel="me noopener" aria-label="Matrix" 
                            style="display: flex; align-items: center; justify-content: center; ">
                             <svg width="24" height="24" viewBox="0 0 27.9 32" xmlns="http://www.w3.org/2000/svg">
                                 <title>Matrix (protocol) logo</title>

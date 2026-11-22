@@ -20,7 +20,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center" id="i18_skills">
-            <h1><span data-i18n="skills.my_skills">My skills</span></h1>
+            <h2 class="h1"><span data-i18n="skills.my_skills">My skills</span></h2>
         </div>
     </div>
     <div class="row features-block">
@@ -40,7 +40,7 @@
                     {% assign lightness = lightness | minus: diff %}
                 {% endif %}
                 
-                {% assign text_color = "#004a8f" %} {% if lightness < 50 %}
+                {% assign text_color = "#00264d" %} {% if lightness < 45 %}
                     {% assign text_color = "#ffffff" %} {% endif %}
                 
                 <span class="skill-tag" style="background-color: hsl(204, 82%, {{ lightness }}%); color: {{ text_color }};">
