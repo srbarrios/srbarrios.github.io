@@ -13,6 +13,12 @@ tags:
   - QA
   - Maintenance
   - Automation
+videos:
+  - id: U1osyy6Lk00
+    name: "Automated QA maintenance updates in SUSE Manager - SUSECon 2020"
+    description: "SUSECon 2020 talk on automating the validation of maintenance updates with Terraform, Salt, Jenkins pipelines and parallel Cucumber tests."
+    uploadDate: 2020-09-18T10:16:18-07:00
+    duration: PT24M12S
 ---
 
 Hello from SUSECon Digital 2020!

@@ -13,6 +13,12 @@ tags:
   - Cucumber
   - Terraform
   - ChromeDriver
+videos:
+  - id: 4U_68ddRAHg
+    name: "Uyuni Test Development"
+    description: "Video guide to setting up a local sandbox for Uyuni and configuring an IDE to develop and debug Cucumber end-to-end tests."
+    uploadDate: 2020-12-18T13:13:27-08:00
+    duration: PT57M26S
 ---
 
 Having new joiners in our QA Squad, I decided to record a video that explains how to set up a local sandbox for Uyuni and how to configure a RubyMine or IntelliJ IDE to develop and debug our Cucumber End to End tests. 
