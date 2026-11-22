@@ -1,6 +1,31 @@
-<!-- Google Analytics (GA4) -->
+<!-- Google Analytics (GA4), loaded only for real visitors:
+     automated browsers are skipped and the tag loads after the first user interaction
+     (scroll, mouse, touch, key or click) or after 20 s with the tab visible. -->
 {% if site.ga %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.id }}"></script>
+  <script>
+    (function () {
+      var ID = '{{ site.ga.id }}';
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      var ua = navigator.userAgent || '';
+      if (navigator.webdriver || /HeadlessChrome|PhantomJS|Lighthouse|bot|crawl|spider|slurp|python|curl|wget|java\//i.test(ua)) { return; }
+      var loaded = false;
+      var events = ['scroll', 'mousemove', 'touchstart', 'keydown', 'click'];
+      function load() {
+        if (loaded) { return; }
+        loaded = true;
+        events.forEach(function (e) { removeEventListener(e, load, true); });
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+        document.head.appendChild(s);
+        gtag('js', new Date());
+        gtag('config', ID);
+      }
+      events.forEach(function (e) { addEventListener(e, load, { capture: true, passive: true }); });
+      setTimeout(function () { if (document.visibilityState === 'visible') { load(); } }, 20000);
+    })();
+  </script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
