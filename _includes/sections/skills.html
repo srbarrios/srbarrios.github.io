@@ -40,7 +40,7 @@
                     {% assign lightness = lightness | minus: diff %}
                 {% endif %}
                 
-                {% assign text_color = "#00264d" %} {% if lightness < 45 %}
+                {% assign text_color = "#00264d" %} {% if lightness < 50 %}{% assign lightness = lightness | minus: 8 %}
                     {% assign text_color = "#ffffff" %} {% endif %}
                 
                 <span class="skill-tag" style="background-color: hsl(204, 82%, {{ lightness }}%); color: {{ text_color }};">
