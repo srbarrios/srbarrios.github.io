@@ -115,7 +115,7 @@
                 <div class="mb-3.5">
                     <h4 class="text-[11px] font-semibold text-slate-400 uppercase mb-1.5">Provisioning &amp; Images</h4>
                     <div class="flex flex-wrap gap-1.5">
-                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">PXE / TFTP</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">AutoYaST</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">cloud-init</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Combustion</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">OBS (RPM &amp; images)</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">PXE / TFTP</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">AutoYaST</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">cloud-init</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Combustion</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">OBS (RPM &amp; images)</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">KIWI</span>
                     </div>
                 </div>
                 <div class="mb-3.5">
@@ -145,7 +145,7 @@
                 <div class="mb-3.5">
                     <h4 class="text-[11px] font-semibold text-slate-400 uppercase mb-1.5">Tooling &amp; AI</h4>
                     <div class="flex flex-wrap gap-1.5">
-                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Git</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Bugzilla</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Claude Code</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">LangGraph</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">MCP</span>
+                        <span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Git</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">GitLab</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Bugzilla</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">Claude Code</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">LangGraph</span><span class="bg-slate-800 border border-slate-700 text-slate-300 text-[11px] px-2 py-0.5 rounded">MCP</span>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     <i class="fas fa-user-check text-slate-500 text-lg"></i> Professional Summary
                 </h2>
                 <div class="text-slate-700 leading-relaxed text-sm space-y-3">
-                    <p>QE Architect and software engineer with 20 years of experience in Linux, test automation and CI/CD, now moving into Platform and Infrastructure Engineering. At SUSE I built and validated Linux environments at scale: infrastructure as code with Terraform/OpenTofu, Salt and Ansible, RPM and image builds on OBS, PXE/TFTP, cloud-init, Combustion and AutoYaST provisioning, Jenkins pipelines, and Prometheus/Grafana observability.</p>
+                    <p>QE Architect and software engineer with 20 years of experience in Linux, test automation and CI/CD, now moving into Platform and Infrastructure Engineering. At SUSE I built and validated Linux environments at scale: infrastructure as code with Terraform/OpenTofu, Salt and Ansible, RPM and image builds with OBS and KIWI, PXE/TFTP, cloud-init, Combustion and AutoYaST provisioning, Jenkins pipelines, and Prometheus/Grafana observability.</p>
                     <p>Earlier, at Telef&oacute;nica, I tested the components and the performance of a national CDN and benchmarked it against Akamai. I work mostly in Python, Bash and Go, and I share what I learn through open source, conference talks and mentoring.</p>
                 </div>
             </section>
@@ -221,10 +221,10 @@
                     <ul class="list-disc pl-5 text-[13px] text-slate-700 space-y-1 mt-2 marker:text-slate-400">
                         <li>Led test architecture and strategy for a Linux systems-management product; earlier QE Squad Coordinator and Test Product Owner of a team of eight; drove a TestOps and Test Infrastructure as Code transformation.</li>
                         <li><strong>Configuration management:</strong> worked with Salt and Ansible, both used and supported by the product.</li>
-                        <li><strong>Images and packages:</strong> created Open Build Service (OBS) projects to build RPM packages and images.</li>
+                        <li><strong>Images and packages:</strong> created Open Build Service (OBS) projects to build RPM packages, and built images with KIWI.</li>
                         <li><strong>Provisioning:</strong> tested PXE booting over TFTP; used cloud-init, Combustion and AutoYaST extensively for unattended installs and first-boot configuration.</li>
                         <li><strong>CI/CD:</strong> Jenkins pipelines and GitHub Actions for parallel end-to-end validation, flaky-test tracking and PR test selection (see achievements).</li>
-                        <li><strong>Quality workflow:</strong> daily bug triage and tracking in Bugzilla and GitHub; DevContainers to standardise contributor environments.</li>
+                        <li><strong>Quality workflow:</strong> daily bug triage and tracking in Bugzilla, with GitHub and GitLab for code and issues; DevContainers to standardise contributor environments.</li>
                     </ul>
                 </div>
                 <div class="mb-6 print-break-inside-avoid">
