@@ -4,7 +4,7 @@ date: 2026-04-12T12:00:00+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: New PoC using crewAI agents to review Uyuni test failures
+desc: "A FailTale proof of concept that uses CrewAI agents to review Uyuni test failures and propose root causes in real test environments."
 permalink: /failtale-uyuni-agents-poc/
 keywords: "failtale,uyuni,crewai,agents,testing,automation,ai,root-cause"
 categories:

@@ -4,7 +4,7 @@ date: 2020-11-12T10:00:56+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Quality Control, Quality Assurance and Quality Engineering
+desc: "From Quality Control to Quality Assurance to Quality Engineering: how the three models of quality complement each other, with slides."
 permalink: /quality-engineering/
 keywords: "quality,qa,qe,engineering,assitance,assurance,control"
 categories:

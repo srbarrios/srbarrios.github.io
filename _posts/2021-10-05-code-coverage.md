@@ -4,7 +4,7 @@ date: 2021-09-30T08:40:26+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Code Coverage
+desc: "Code coverage workshop: use IntelliJ to measure test coverage and cyclomatic complexity and learn how both relate to test quality. Slides and code."
 permalink: /code-coverage-workshop/
 keywords: "tdd,code-coverage,coverage,cyclomatic,complexity,workshop,test,quality"
 categories:

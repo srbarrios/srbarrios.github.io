@@ -4,7 +4,7 @@ date: 2021-10-25T18:40:26+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Test Frameworks workshop
+desc: "Overview of test frameworks by category: unit, mock, API, GUI and BDD testing, with the tools to consider in each area. Workshop slides."
 permalink: /test-frameworks-workshop/
 keywords: "tdd,bdd,test_framework,workshop,test,quality"
 categories:

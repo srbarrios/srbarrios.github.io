@@ -4,7 +4,7 @@ date: 2018-10-25T11:46:43+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Demo game made with Unity3D
+desc: "HurryMind! is a mobile mental-skill demo game made with Unity3D: solve word puzzles and maths operations before the time runs out."
 permalink: /hurrymind-game/
 keywords: "game,mobile,unity3d"
 categories:

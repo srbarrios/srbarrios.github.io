@@ -4,7 +4,7 @@ date: 2019-07-06T09:07:00+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: 'Jenkins Pipeline &#038; Parallel Cucumber'
+desc: "How to run Cucumber end-to-end tests in parallel with a Jenkins pipeline to cut CI feedback time, with a demo video of the pipeline."
 permalink: /jenkins-pipeline-parallel-cucumber/
 enclosure:
   - |

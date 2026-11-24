@@ -4,7 +4,7 @@ date: 2021-08-30T18:30:36+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Introduction to Software bugs
+desc: "Introduction to software bugs for testing students: defect, error and failure explained, plus how teams track them in a bug tracker. Slides."
 permalink: /software-bugs/
 keywords: "bug,defect,error,failure,bugzilla,test,quality"
 categories:

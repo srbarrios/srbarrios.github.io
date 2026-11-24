@@ -4,7 +4,7 @@ date: 2018-10-30T19:38:44+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Tutorial to setup your own home hosting
+desc: "Step-by-step tutorial to host your own website at home for free: CG-NAT, dynamic IP, dynamic DNS and router port forwarding explained."
 permalink: /home-hosting/
 keywords: "hosting,router"
 categories:

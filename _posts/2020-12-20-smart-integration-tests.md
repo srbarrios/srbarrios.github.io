@@ -4,7 +4,7 @@ date: 2020-12-20T10:00:56+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Using Cucumber profiles and Analizing code changes
+desc: "Speeding up integration tests with Cucumber profiles and tags, a pull-request validation pipeline and test selection based on code changes."
 permalink: /smart-integration-tests/
 keywords: "integration,tests,ci,cucumber,tags,profiles,github,actions,code,changes"
 categories:

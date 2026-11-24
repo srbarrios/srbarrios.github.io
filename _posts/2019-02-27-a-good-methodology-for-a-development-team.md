@@ -4,7 +4,7 @@ date: 2019-02-27T15:27:56+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: BDD in a development team
+desc: "An introduction to BDD in a development team: Behaviour-Driven Development, Gherkin syntax and the Cucumber framework, with slides."
 permalink: /a-good-methodology-for-a-development-team/
 keywords: "bdd,cucumber,testing,automation,gherkin,agile"
 categories:

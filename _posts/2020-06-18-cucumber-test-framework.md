@@ -4,7 +4,7 @@ date: 2020-05-18T09:07:00+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: 'Starter skeleton of Cucumber a Test Framework'
+desc: "A starter skeleton of a Cucumber test framework in Ruby with Capybara and GitHub Actions CI, based on the stack used by the Uyuni project."
 permalink: /cucumber-test-framework/    
 keywords: "test,framework,ruby,cucumber,capybara"
 categories:

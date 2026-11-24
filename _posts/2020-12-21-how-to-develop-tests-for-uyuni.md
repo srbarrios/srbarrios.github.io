@@ -4,7 +4,7 @@ date: 2020-12-21T20:07:00+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: 'Starter skeleton of Cucumber a Test Framework'
+desc: "How to develop end-to-end tests for Uyuni with Cucumber, Capybara, ChromeDriver and Terraform test environments, with a walkthrough video."
 permalink: /uyuni-test-development/    
 keywords: "test,development,framework,ruby,cucumber,capybara,chromedriver"
 categories:

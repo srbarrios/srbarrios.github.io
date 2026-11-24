@@ -4,7 +4,7 @@ date: 2020-07-05T16:00:56+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Introduction made as part of the first DevOps meetup in SUSE
+desc: "Introduction to DevOps culture and the delivery cycle, presented at the first monthly DevOps meetup I started inside SUSE. Slides included."
 permalink: /devops-introduction/
 keywords: "devops,cycle,culture,meetup"
 categories:

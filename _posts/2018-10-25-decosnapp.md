@@ -4,7 +4,7 @@ date: 2018-10-25T12:57:37+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: DecoSnapp (Augmented Reality app)
+desc: "DecoSnapp is an augmented reality (AR) decoration and art app built with Unity3D, shown here with a demo video of the app in action."
 permalink: /decosnapp/
 keywords: "art,ar,decoration,unity3d,app"
 enclosure:

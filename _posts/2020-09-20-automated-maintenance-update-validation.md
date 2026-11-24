@@ -4,7 +4,7 @@ date: 2020-09-20T19:07:00+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: 'SUSECon 2020 Talk: Automated QA for Maintenance Updates'
+desc: "SUSECon 2020 talk: how a Jenkins pipeline automated QA of maintenance updates across 70+ systems in parallel, replacing weeks of manual work."
 permalink: /automated-mu-validation/    
 keywords: "test,pipelines,maintenance"
 categories:

@@ -4,7 +4,7 @@ date: 2020-05-18T09:07:00+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: 'Starter skeleton of a Java Backend'
+desc: "A starter skeleton for a Java Spring Boot backend with API endpoints, a Redis NoSQL connection and the basics to deploy on Google Cloud."
 permalink: /java-backend-skeleton/
 keywords: "java,backend,springboot,redis,api"
 categories:

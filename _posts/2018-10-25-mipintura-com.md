@@ -4,7 +4,7 @@ date: 2018-10-25T13:10:55+00:00
 author: Oscar Barrios
 layout: post
 comments: true
-desc: Online shop made with Prestashop
+desc: "MiPintura.com is an online shop for original paintings and custom framing, built with PrestaShop. Notes on the project and its catalogue."
 permalink: /mipintura-com/
 keywords: "art,shop,prestashop"
 categories:
